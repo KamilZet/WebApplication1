@@ -10,6 +10,8 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Welcome to the PLaNet platform";
+            
             return View();
         }
 
